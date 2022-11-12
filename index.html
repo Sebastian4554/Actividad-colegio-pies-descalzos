@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Formulario Contacto</title>
+</head>
+<body>
+
+    <!-- Formulario -->
+    
+    <form 
+      class="formulario"
+    >
+        <fieldset>
+        <legend>Colegio Pies Descalzos</legend>
+        <div class="contenedor-campos">
+            <div class="campos">
+                <label>Nombres</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" class="input-text">
+            </div>
+            <br>
+            <div class="campos">
+                <label>Apellidos</label>
+                <input id="apellido" name="apellido" type="text" placeholder="Tus apellidos" class="input-text">
+            </div>
+            <br>
+            <div class="campos">
+                <label>Curso</label>
+                <select id="curso">
+                    <option>curso</option>
+                    <option value="6">Sexto</option>
+                    <option value="7">Septimo</option>
+                    <option value="8">Octavo</option>
+                    <option value="9">Noveno</option>
+                    <option value="10">Decimo</option>
+                    <option value="11">Once</option>
+                </select>
+            </div>
+            <br>
+            <div class="campos">
+                <label>Edad</label>
+                <input id="edad" name="edad" type="text" placeholder="Edad"  class="input-text"></input>
+            </div>
+            <br>
+            <div class="campos">
+                <label>Sexo</label>
+                <input type="radio" id="radio1" name="sexo" value="Masculino" class="input-radio1"> Masculino
+                <input type="radio" id="radio2" name="sexo" value="Femenino" class="input-radio2"> Femenino
+            </div>
+            <br>
+            <div class="campos">
+                <label>Estado Civil</label>
+                <input id="estado" name="estado" type="text" placeholder="Estado Civil" class="input-text"></input>
+            </div>
+            <br>
+            <div class="campos">
+                <label>Poblacion Vulnerable</label>
+                <select id="poblacion">
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
+            <br>
+            <div class="campos">
+                <label>Ubicacion</label>
+                <select id="ubicacion">
+                    <option value="La Playa">La playa</option>
+                    <option value="Malambo">Malambo</option>
+                    <option value="Barranquilla">Barranquilla</option>
+                    <option value="Soledad">Soledad</option>
+                </select>
+            </div>
+        </div>    
+
+            <br>
+        <div>
+            <input class="boton" type="submit" value="Enviar" class="Enviar">
+        </div>
+
+        <!-- Mensaje -->
+
+       <div id="alerta">
+
+
+       </div> 
+
+        </fieldset>
+        <br>
+        <br>
+        <br>
+    </form>
+    <form action="segundo">
+        <div class="tablas">
+        <table border="1">
+            <thead>
+                <h1>
+                    informacion
+                </h1>
+                <br>
+                <br>
+                <thead>
+                <tr>
+                    <th>Sexto</th>
+                    <th>Septimo</th>
+                    <th>Octavo</th>
+                    <th>Noveno</th>
+                    <th>Decimo</th>
+                    <th>Once</th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                    <td id="dato_sexto">0</td>
+                    <td id="dato_septimo">0</td>
+                    <td id="dato_octavo">0</td>
+                    <td id="dato_noveno">0</td>
+                    <td id="dato_diez">0</td>
+                    <td id="dato_once">0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <table border="1">
+                <thead>
+                    <thead>
+                    <tr>
+                        <th>Mayores De Edad</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                    <tr>
+                    <td id="dato_mayor">0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+                <table border="1">
+                    <thead>
+                        <thead>
+                        <tr>
+                            <th>Masculino</th>
+                            <th>Femenino</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                        <tr>
+                        <td id="dato_m">0</td>
+                        <td id="dato_f">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <table border="1">
+                    <thead>
+                        <thead>
+                        <tr>
+                            <th>Poblacion Vulnerable</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                        <tr>
+                        <td id="dato_poblacion">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>La playa</th>
+                            <th>Malambo</th>
+                            <th>Barranquilla</th>
+                            <th>Soledad</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <tr>
+                            <td id="dato_playa">0</td>
+                            <td id="dato_malambo">0</td>
+                            <td id="dato_barran">0</td>
+                            <td id="dato_soledad">0</td>
+                            </tr>
+                        </tbody>
+                </table>
+    </div>
+        <!--  -->
+    </form>
+    <!-- Fin Formulario -->
+
+   
+    <script type="text/javascript" src="./js/index.js"></script>
+    
+    </div>
+</body>
+</html>

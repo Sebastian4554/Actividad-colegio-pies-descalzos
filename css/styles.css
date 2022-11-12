@@ -1,0 +1,119 @@
+
+/*Selectores mas generales*/
+:root{
+    --blanco:#ffffff;
+    --oscuro:#212121;
+    --primario:rgb(149, 229, 223);
+    --secundario:#0097a7;
+    --gris:#757575;
+}
+/*Globales*/
+
+
+/* validacion del funcion formulario*/
+
+.error{
+    background-color:rgb(236, 52, 52);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.correcto{
+    background-color: var(--primario);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+
+body{
+background-image: url(bgreact.svg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+
+}
+
+form{
+    text-align: justify;
+    font-size: 20px;
+    width: fit-content;
+    margin: 1% auto 0 auto;
+    color: rgb(255, 255, 255);
+}
+fieldset{
+    margin-top: 55px;
+    
+}
+
+
+.boton{
+    margin-left: 52.3px;
+    background-color: #081f2d; 
+    border-radius: 29px; 
+    border: 1px solid #081F2D; 
+    color: white; 
+    font-size: 15px; 
+   padding: 10px 45px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    }
+    
+    .boton:hover{ 
+    background-color: white; 
+    color: #081F2D; 
+    border-color: #081F2D; 
+    transition: 0.3s; 
+   }
+.input-text,
+select {    
+    font-family: Verdana, Geneva, sans-serif;
+     padding: 7px;
+     font-size: 10px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 50px;
+     box-shadow: 0px 0px 13px rgba(66,66,66,.75);
+}
+input-text:focus,
+select {
+     outline:none;
+}
+select{
+    width: 100px;
+}
+
+.tablas{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+    padding: 10px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 15%;
+    border-color: blueviolet;
+}
+
+tr{
+    text-align: center;
+    padding: 10px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 15%;
+    border: transparent;
+    border-color: blueviolet; 
+}
+
+.tablas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
